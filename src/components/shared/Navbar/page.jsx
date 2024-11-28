@@ -1,0 +1,37 @@
+"use client"
+import Image from "next/image";
+import SubMenu from "../SubMenu/page";
+import { IoIosMenu } from "react-icons/io";
+import { useState } from "react";
+import { IoCloseOutline } from "react-icons/io5";
+
+export default function Navbar() {
+    const [openSubMenu,setOpenSubMenu] = useState(false)
+    return(
+        <div className="fixed w-full p-3 flex justify-center items-center z-50">
+            <div className={`cShadow w-full ${openSubMenu ? "h-[500px] lg:h-[100px]" : "h-[100px]"} transition-all duration-300 rounded-r-3xl rounded-tl-3xl bg-[#DBF3F9] overflow-hidden flex flex-col lg:flex-row lg:items-center lg:justify-between`}>
+                <div className="flex justify-between items-center min-h-[100px] lg:h-[100px] w-full">
+                    <div className="w-[330px] cShadow relative bg-white rounded-r-full h-full flex p-3 pr-7">
+                        <div className="w-full h-full relative">
+                            <Image priority src="/img/logoBooster.png" objectFit="contain" layout="fill" alt="logo booster mas"/>
+                        </div>
+                    </div>
+                    <div className="block lg:hidden px-10 text-4xl sm:text-5xl hover:scale-105 transition-all duration-300 text-azulBooster">
+                        <button onClick={()=>setOpenSubMenu(!openSubMenu)}>
+                           {openSubMenu ? <IoCloseOutline/>:<IoIosMenu/>}
+                        </button>
+                    </div>
+                </div>
+                
+                <div className="hidden lg:block">
+                    <SubMenu />
+                </div>
+                {
+                    openSubMenu && 
+                    <div className="block lg:hidden">
+                        <SubMenu />  
+                    </div>
+                }
+            </div>                
+        </div>
+    )}
