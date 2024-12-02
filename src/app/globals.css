@@ -3,10 +3,25 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'lato';
-  src: url('/fonts/Lato-Regular.ttf');
+  font-family: "lato";
+  src: url("/fonts/Lato-Regular.ttf");
 }
 
-.cShadow{
+.cShadow {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bgGradient {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    144deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(65, 190, 205, 1) 11%,
+    rgba(255, 232, 254, 1) 28%,
+    rgba(255, 232, 254, 1) 47%,
+    rgba(151, 71, 255, 1) 61%,
+    rgba(219, 243, 249, 1) 79%,
+    rgba(219, 243, 249, 1) 86%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }

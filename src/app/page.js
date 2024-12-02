@@ -1,8 +1,13 @@
-import HeaderHome from "@/components/home/HeaderHome/page";
-import Image from "next/image";
+import EtapasAcelerador from "@/components/home/EtapasAcelerador/page"
+import HeaderHome from "@/components/home/HeaderHome/page"
+import SomosElPrimer from "@/components/home/SomosElPrimer/page"
 
 export default function Home() {
   return (
-    <HeaderHome/>
-  );
+    <>
+      <HeaderHome />
+      <SomosElPrimer />
+      <EtapasAcelerador />
+    </>
+  )
 }

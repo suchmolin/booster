@@ -1,4 +1,6 @@
+import BotonBooster from "@/components/shared/BotonBooster/page"
 import { Carousel } from "flowbite-react"
+import Image from "next/image"
 
 export default function HeaderHome() {
   const customTheme = {
@@ -12,20 +14,34 @@ export default function HeaderHome() {
   }
 
   return (
-    <div className="w-full h-[750px] sm:h-[790px] lg:h-[600px] xl:h-[800px] xxl:h-[800px] flex items-center justify-center overflow-hidden">
+    <div className="w-full h-[750px] relative sm:h-[790px] lg:h-[600px] xl:h-[800px] xxl:h-[800px] flex items-center justify-center ">
       <Carousel
         theme={customTheme}
         indicators={false}
         leftControl={false}
         slideInterval={5000}
       >
-        <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-          Slide 1
-        </div>
-        <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-          Slide 2
+        <div className="w-full relative flex flex-col h-full justify-center text-azulBooster bg-[url('/img/header.png')] bg-no-repeat bg-cover bg-left-top">
+          <div className="w-[700px] flex flex-col ml-32 ">
+            <h2 className="text-5xl font-bold mb-2">
+              Es Hora de Dejar Atrás el Miedo a las Matemáticas
+            </h2>
+            <p className="text-3xl mb-2">Clases de matemáticas para niños</p>
+            <BotonBooster href="#" texto="VER MÁS" />
+          </div>
         </div>
       </Carousel>
+      <div className="absolute bottom-0 z-10 w-full">
+        <div className="relative w-full h-[250px]">
+          <Image
+            src="/img/curvaHeaderHome.png"
+            layout="fill"
+            objectFit="contain"
+            alt="curva"
+            objectPosition="bottom"
+          />
+        </div>
+      </div>
     </div>
   )
 }
