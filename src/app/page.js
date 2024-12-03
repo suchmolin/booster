@@ -8,6 +8,7 @@ export default function Home() {
       <HeaderHome />
       <SomosElPrimer />
       <EtapasAcelerador />
+      <div className="h-[2000px]"></div>
     </>
   )
 }

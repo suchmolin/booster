@@ -1,6 +1,9 @@
 import Image from "next/image"
 import IcoBooster from "./IcoBooster/page"
 import IniciacionSec from "./IniciacionSec/page"
+import NivelacionSec from "./NivelacionSec/page"
+import AceleracionSec from "./AceleracionSec/page"
+import AplicacionSec from "./AplicacionSec/page"
 
 export default function EtapasAcelerador() {
   return (
@@ -10,6 +13,9 @@ export default function EtapasAcelerador() {
       </div>
       <IcoBooster />
       <IniciacionSec />
+      <NivelacionSec />
+      <AceleracionSec />
+      <AplicacionSec />
     </div>
   )
 }
