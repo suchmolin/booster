@@ -1,5 +1,7 @@
 import EtapasAcelerador from "@/components/home/EtapasAcelerador/page"
 import HeaderHome from "@/components/home/HeaderHome/page"
+import LaMatematica from "@/components/home/LaMatematica/page"
+import SedesHome from "@/components/home/SedesHome/page"
 import SomosElPrimer from "@/components/home/SomosElPrimer/page"
 
 export default function Home() {
@@ -8,7 +10,8 @@ export default function Home() {
       <HeaderHome />
       <SomosElPrimer />
       <EtapasAcelerador />
-      <div className="h-[2000px]"></div>
+      <LaMatematica />
+      <SedesHome />
     </>
   )
 }
