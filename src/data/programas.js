@@ -7,7 +7,7 @@ export const data = [
       fondo: "#D1DBFA",
       items: [
         "Clases grupales de máximo 8 alumnos.",
-        "16 horas de clases semanales.",
+        "4 horas de clases semanales.",
         "Para edades comprendidas: entre 3 y 17 años.",
         "Es un programa educativo diseñado para llevar a tu hijo un paso adelante de su etapa de estudio.",
         "Es un proceso de 4 etapas: Iniciación, Nivelación, Aceleración y Aplicación.",

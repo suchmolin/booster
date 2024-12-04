@@ -13,7 +13,7 @@ export default function SedesHome() {
             alt="sede de boostgermas en el ccct"
           />
         </div>
-        <div className="w-[280px] xs:w-[350px] sm:w-[400px] lg:w-[400px] xl:w-[800px] xxl:w-[600px] flex flex-col gap-7 text-azulBooster text-3xl lg:text-4xl xl:text-5xl -mt-10">
+        <div className="w-[280px] xs:w-[350px] sm:w-[400px] lg:w-[400px] xl:w-[800px] xxl:w-[600px] flex flex-col gap-4 xl:gap-7 text-azulBooster text-3xl lg:text-4xl xl:text-5xl -mt-5 md:-mt-10 text-center md:text-start">
           <h3 className="font-bold">SEDE GRUPAL</h3>
           <p className="">
             CCCT, nivel 2, sector Yarey, nivel mezzanina, oficina M03.
