@@ -16,7 +16,7 @@ export default function LaMatematica() {
     },
   ]
   return (
-    <div className="bg-gradient-to-b from-[#D1DBFA] to-white flex flex-col justify-center items-center pb-20 -mt-1">
+    <div className="bg-gradient-to-b from-[#D1DBFA] to-white flex flex-col justify-center items-center md:pb-20 -mt-1">
       <h2 className="w-[290px] xs:w-[360px] sm:w-[600px] md:w-[750px] lg:w-[1000px] text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-azulBooster text-center py-10 sm:py-20">
         <span className="font-bold">La Matemática está en todo, </span>con el
         método boostermath impulsa a tu hijo a desarrollar esta habilidad
