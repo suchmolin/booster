@@ -1,21 +1,16 @@
 import Image from "next/image"
 import IcoBooster from "./IcoBooster/page"
 import IniciacionSec from "./IniciacionSec/page"
-import NivelacionSec from "./NivelacionSec/page"
-import AceleracionSec from "./AceleracionSec/page"
-import AplicacionSec from "./AplicacionSec/page"
+import { data } from "@/data/etapasAcelerador"
 
 export default function EtapasAcelerador() {
   return (
-    <div className="w-full relative pb-32">
-      <div className="absolute w-full h-full top-0 left-0 flex justify-center">
-        <div className="w-[10px] h-[95%] bgGradient"></div>
-      </div>
+    <div className="w-full relative pb-32 mt-10 xl:mt-0">
       <IcoBooster />
-      <IniciacionSec />
-      <NivelacionSec />
-      <AceleracionSec />
-      <AplicacionSec />
+      {data.map((item, i) => (
+        <IniciacionSec key={item.id} item={item} mirror={i % 2 !== 0} />
+      ))}
+
       <div className="absolute bottom-0 z-10 w-full">
         <div className="relative w-full h-[250px]">
           <Image

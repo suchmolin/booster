@@ -14,7 +14,7 @@ export default function HeaderHome() {
   }
 
   return (
-    <div className="w-full h-[750px] relative sm:h-[790px] lg:h-[600px] xl:h-[800px] xxl:h-[800px] flex items-center justify-center ">
+    <div className="w-full h-[750px] relative xl:h-[800px] xxl:h-[800px] flex items-center justify-center ">
       <Carousel
         theme={customTheme}
         indicators={false}
@@ -22,8 +22,8 @@ export default function HeaderHome() {
         slideInterval={5000}
       >
         <div className="w-full relative flex flex-col h-full justify-center text-azulBooster bg-[url('/img/header.png')] bg-no-repeat bg-cover bg-left-top">
-          <div className="w-[700px] flex flex-col ml-32 ">
-            <h2 className="text-5xl font-bold mb-2">
+          <div className="w-[350px] sm:w-[700px] flex flex-col ml-5 sm:ml-10 xl:ml-32 -mt-40 sm:mt-0">
+            <h2 className="text-4xl sm:text-5xl font-bold mb-2">
               Es Hora de Dejar Atrás el Miedo a las Matemáticas
             </h2>
             <p className="text-3xl mb-2">Clases de matemáticas para niños</p>
