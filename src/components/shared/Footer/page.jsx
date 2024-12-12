@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="w-11/12 border-t border-white pt-7 text-center sm:text-start">
-        <p className="text-2xl">Copyright ©Booster.</p>
+        <p className="text-lg">Copyright ©Booster.</p>
       </div>
     </footer>
   )

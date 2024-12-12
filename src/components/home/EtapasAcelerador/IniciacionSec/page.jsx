@@ -20,7 +20,7 @@ export default function IniciacionSec({ item, mirror }) {
               color: item.colorTitulo,
               backgroundColor: item.fondoTitulo,
             }}
-            className={`w-fit text-3xl py-1 px-3  rounded-lg font-bold`}
+            className={`w-fit text-3xl py-1 px-3  rounded-lg text-[ralewayBlack]`}
           >
             {item.titulo}
           </h4>

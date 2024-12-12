@@ -12,7 +12,7 @@ export default function CardPrograma({ data }) {
       <div className="absolute w-full -top-10 flex justify-center z-10">
         <h3
           style={{ backgroundImage: `url(${data.fondoTitulo})` }}
-          className={`text-white w-fit p-7 rounded-xl text-4xl xs:text-4xl xl:text-5xl font-bold  bg-contain bg-no-repeat bg-center`}
+          className={`text-white w-fit p-7 rounded-xl text-3xl xs:text-3xl xl:text-4xl text-[ralewayBlack]  bg-contain bg-no-repeat bg-center`}
         >
           {data.titulo}
         </h3>
@@ -27,7 +27,7 @@ export default function CardPrograma({ data }) {
               style={{ color: data.colorVineta }}
               className="text-2xl xl:text-3xl"
             />
-            <p className="w-[200px] xs:w-[250px] lg:w-[280px] xl:w-[340px] xs:text-lg lg:text-LG xl:text-xl text-azulBooster font-bold">
+            <p className="w-[200px] xs:w-[250px] lg:w-[280px] xl:w-[340px] xs:text-lg lg:text-LG xl:text-xl text-azulBooster text-[ralewayBlack]">
               {item}
             </p>
           </div>
@@ -37,7 +37,7 @@ export default function CardPrograma({ data }) {
         <a
           href={tarjeta.boton.href}
           style={{ backgroundColor: tarjeta.boton.color }}
-          className="w-fit text-base xs:text-LG xl:text-xl text-white py-2 px-4 rounded-xl font-bold z-10"
+          className="w-fit text-base xs:text-LG xl:text-xl text-white py-2 px-4 rounded-xl text-[ralewayBlack] z-10"
         >
           {tarjeta.boton.texto}
         </a>

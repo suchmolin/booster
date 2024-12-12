@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function SedesHome() {
   return (
     <div className="w-full flex flex-col items-center overflow-hidden bg-[url('/img/fondoqueempiece.png')] bg-cover bg-no-repeat bg-top">
-      <h2 className="font-bold text-2xl xs:text-4xl sm:text-5xl text-white bg-azulBooster pb-2 pt-1 px-3 rounded-xl w-fit text-center lg:mb-12 xl:mb-0 xxl:mb-10">
+      <h2 className="text-[ralewayBlack] text-2xl xs:text-4xl sm:text-5xl text-white bg-azulBooster pb-2 pt-1 px-3 rounded-xl w-fit text-center lg:mb-12 xl:mb-0 xxl:mb-10">
         Conoce nuestra sede
       </h2>
       <div className="w-[500px] md:w-[750px] lg:w-[1000px] xl:w-[1200px] xxl:w-[1300px] flex flex-col md:flex-row gap-5 lg:gap-10 xxl:gap-20 items-center">
@@ -17,8 +17,8 @@ export default function SedesHome() {
           />
         </div>
         <div className="w-[280px] xs:w-[350px] sm:w-[400px] lg:w-[400px] xl:w-[800px] xxl:w-[600px] flex flex-col gap-2 text-azulBooster text-2xl lg:text-3xl xl:text-4xl -mt-5 md:-mt-10 text-center md:text-start">
-          <h3 className="font-bold">SEDE GRUPAL</h3>
-          <p className="text-2xl xs:text-3xl font-bold mb-7">
+          <h3 className="text-[ralewayBlack]">SEDE GRUPAL</h3>
+          <p className="text-2xl xs:text-[28px] text-[ralewayBlack] mb-7">
             CCCT, nivel 2, sector Yarey, nivel mezzanina, oficina M03.
           </p>
           <div className="w-full flex gap-2 xxl:gap-4 items-center justify-center md:justify-start mb-4">
@@ -50,7 +50,7 @@ export default function SedesHome() {
         </div>
       </div>
       <div className="w-[280px] xs:w-[350px] sm:w-[580px] md:w-[740px] lg:w-[1000px] xl:w-[1200px] flex flex-col items-center py-20 text-center">
-        <p className="w-[290px] xs:w-[370px] sm:w-[700px] font-bold text-xl xs:text-2xl sm:text-3xl xl:text-4xl text-azulBooster mb-2 sm:mb-4 px-3 xs:px-0 sm:px-10 md:px-0">
+        <p className="w-[290px] xs:w-[370px] sm:w-[700px] text-[ralewayBlack] text-xl xs:text-2xl sm:text-3xl xl:text-4xl text-azulBooster mb-2 sm:mb-4 px-3 xs:px-0 sm:px-10 md:px-0">
           Es momento de dar un paso adelante en la Educación de tu hijo, ven a
           Booster y
         </p>

@@ -17,9 +17,11 @@ export default function LaMatematica() {
   ]
   return (
     <div className="bg-gradient-to-b from-[#D1DBFA] to-white flex flex-col justify-center items-center md:pb-20 -mt-1">
-      <h2 className="w-[290px] xs:w-[360px] sm:w-[600px] md:w-[750px] lg:w-[1000px] text-xl sm:text-2xl md:text-3xl lg:text-4xl text-azulBooster text-center py-10 sm:py-20">
-        <span className="font-bold">La Matemática está en todo, </span>con el
-        método boostermath impulsa a tu hijo a desarrollar esta habilidad
+      <h2 className="w-[290px] xs:w-[360px] sm:w-[600px] md:w-[750px] lg:w-[1000px] text-lg sm:text-xl md:text-2xl lg:text-3xl text-azulBooster text-center py-10 sm:py-20">
+        <span className="text-[ralewayBlack]">
+          La Matemática está en todo,{" "}
+        </span>
+        con el método boostermath impulsa a tu hijo a desarrollar esta habilidad
         esencial para su vida
       </h2>
       <div className="sm:w-[600px] md:w-[750px] xl:w-[1100px] flex flex-col sm:flex-row justify-between items-center">
@@ -36,7 +38,7 @@ export default function LaMatematica() {
                 alt="diferenciador"
               />
             </div>
-            <p className="w-[150px] md:w-[200px] text-azulBooster font-bold text-xl md:text-2xl lg:text-3xl text-center">
+            <p className="w-[150px] md:w-[200px] text-azulBooster text-[ralewayBlack] text-xl md:text-2xl lg:text-3xl text-center">
               {item.titulo}
             </p>
           </div>

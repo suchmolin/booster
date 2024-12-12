@@ -6,6 +6,14 @@
   font-family: "raleway";
   src: url("/fonts/raleway.ttf");
 }
+@font-face {
+  font-family: "ralewayBlack";
+  src: url("/fonts/Raleway-Black.ttf");
+}
+@font-face {
+  font-family: "ralewayBold";
+  src: url("/fonts/Raleway-ExtraBold.ttf");
+}
 
 .cShadow {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

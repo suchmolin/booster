@@ -18,7 +18,7 @@ module.exports = {
       xxxl: "2000px",
     },
     fontFamily: {
-      customFont: ["raleway"],
+      customFont: ["raleway", "ralewayBlack", "ralewayBold"],
       // Add more custom font families as needed
     },
     extend: {

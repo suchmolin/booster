@@ -7,7 +7,7 @@ import SomosElPrimer from "@/components/home/SomosElPrimer/page"
 
 export default function Home() {
   return (
-    <main className="font-[raleway]">
+    <main className="font-[ralewayBold]">
       <HeaderHome />
       <SomosElPrimer />
       <EtapasAcelerador />
