@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function SomosElPrimer() {
   return (
     <div className="w-full relative bg-gradient-to-b from-[#DBF3F9] to-white z-20 flex flex-col items-center lg:-mt-5 overflow-hidden">
-      <h2 className="text-xl xs:text-2xl sm:text-4xl lg:text-5xl text-white pt-10 lg:pt-20 flex flex-col text-center gap-2 text-[ralewayBlack] items-center mb-5">
+      <h2 className="text-xl xs:text-2xl sm:text-4xl lg:text-5xl text-white pt-10 lg:pt-20 flex flex-col text-center gap-2 font-[ralewayBlack] items-center mb-5">
         <span className="bg-violetaBooster rounded-xl w-fit py-2 px-4">
           Somos el Primer Acelerador
         </span>
@@ -12,7 +12,7 @@ export default function SomosElPrimer() {
           Matemático del País
         </span>
       </h2>
-      <p className="w-[290px] xs:w-[370px] sm:w-[620px] md:w-[740px] lg:w-[1000px] xs:text-lg sm:text-2xl text-azulBooster text-center text-[ralewayBlack]">
+      <p className="w-[290px] xs:w-[370px] sm:w-[620px] md:w-[740px] lg:w-[1000px] xs:text-lg sm:text-2xl text-azulBooster text-center font-[ralewayBlack]">
         Booster te ofrece la oportunidad de fortalecer y potenciar las
         habilidades numéricas de tu hijo, permitiendole superar desafíos y
         avanzar hacia niveles mas altos.
