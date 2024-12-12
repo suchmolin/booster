@@ -7,13 +7,13 @@ import SomosElPrimer from "@/components/home/SomosElPrimer/page"
 
 export default function Home() {
   return (
-    <>
+    <main className="font-[raleway]">
       <HeaderHome />
       <SomosElPrimer />
       <EtapasAcelerador />
       <LaMatematica />
       <ProgramasHome />
       <SedesHome />
-    </>
+    </main>
   )
 }

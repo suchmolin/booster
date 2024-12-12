@@ -1,4 +1,4 @@
-const flowbite = require("flowbite-react/tailwind");
+const flowbite = require("flowbite-react/tailwind")
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -18,9 +18,7 @@ module.exports = {
       xxxl: "2000px",
     },
     fontFamily: {
-      customFont: [
-        "lato",
-      ],
+      customFont: ["raleway"],
       // Add more custom font families as needed
     },
     extend: {
@@ -32,4 +30,4 @@ module.exports = {
     },
   },
   plugins: [flowbite.plugin()],
-};
+}

@@ -22,7 +22,7 @@ export default function HeaderHome() {
         slideInterval={5000}
       >
         <div className="w-full relative flex flex-col h-full justify-center items-center sm:items-start text-azulBooster bg-[url('/img/headerSm.png')] sm:bg-[url('/img/headerMd.png')] lg:bg-[url('/img/header.png')] bg-no-repeat bg-cover bg-bottom xs:bg-left lg:bg-bottom xl:bg-right-bottom">
-          <div className="w-[290px] xs:w-[375px] sm:w-[350px] lg:w-[460px] xxl:w-[700px] flex flex-col ml-0 sm:ml-7 xl:ml-24 xxl:ml-32 -mt-72 sm:mt-0 text-center sm:text-start px-3 sm:px-0">
+          <div className="w-[290px] xs:w-[375px] sm:w-[350px] lg:w-[600px] xl:w-[460px] xxl:w-[680px] flex flex-col ml-0 sm:ml-7 xl:ml-24 xxl:ml-32 -mt-72 sm:mt-0 text-center sm:text-start px-3 sm:px-0">
             <h2 className="text-3xl xs:text-4xl sm:text-5xl xxxl:text-6xl font-bold mb-2">
               Es Hora de Dejar Atrás el Miedo a las Matemáticas
             </h2>

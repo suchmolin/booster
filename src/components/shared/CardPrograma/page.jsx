@@ -7,7 +7,7 @@ export default function CardPrograma({ data }) {
   return (
     <div
       style={{ backgroundColor: tarjeta?.fondo }}
-      className="w-[280px] xs:w-[350px] lg:w-[400px] xl:w-[500px] relative flex flex-col justify-center rounded-2xl pb-10 cShadow"
+      className="w-[280px] xs:w-[350px] lg:w-[400px] xl:w-[500px] min-h-[860px] relative flex flex-col rounded-2xl pb-10 cShadow"
     >
       <div className="absolute w-full -top-10 flex justify-center z-10">
         <h3
@@ -22,12 +22,12 @@ export default function CardPrograma({ data }) {
       </div>
       <div className="relative px-7 pt-7 pb-16">
         {tarjeta?.items.map((item) => (
-          <div key={item} className="flex gap-4 mb-4 xs:mb-7">
+          <div key={item} className="flex gap-4 mb-4 xs:mb-4">
             <FaRegCheckCircle
               style={{ color: data.colorVineta }}
-              className="text-3xl xl:text-4xl"
+              className="text-2xl xl:text-3xl"
             />
-            <p className="w-[200px] xs:w-[250px] lg:w-[280px] xl:w-[340px] xs:text-lg lg:text-xl xl:text-2xl">
+            <p className="w-[200px] xs:w-[250px] lg:w-[280px] xl:w-[340px] xs:text-lg lg:text-LG xl:text-xl text-azulBooster font-bold">
               {item}
             </p>
           </div>
@@ -37,7 +37,7 @@ export default function CardPrograma({ data }) {
         <a
           href={tarjeta.boton.href}
           style={{ backgroundColor: tarjeta.boton.color }}
-          className="w-fit text-base xs:text-xl xl:text-2xl text-white py-2 px-4 rounded-xl font-bold z-10"
+          className="w-fit text-base xs:text-LG xl:text-xl text-white py-2 px-4 rounded-xl font-bold z-10"
         >
           {tarjeta.boton.texto}
         </a>

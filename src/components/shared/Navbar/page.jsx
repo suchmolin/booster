@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <div className="fixed w-full p-3 flex justify-center items-center z-50">
       <div
-        className={`cShadow w-full ${openSubMenu ? "h-[500px] lg:h-[90px]" : "h-[65px] lg:h-[90px]"} transition-all duration-300 rounded-r-3xl rounded-tl-3xl bg-[#DBF3F9] overflow-hidden flex flex-col lg:flex-row lg:items-center lg:justify-between`}
+        className={`cShadow w-full ${openSubMenu ? "h-[500px] lg:h-[90px]" : "h-[65px] lg:h-[90px]"} transition-all duration-300 rounded-r-3xl rounded-tl-3xl bg-azulClaroBooster overflow-hidden flex flex-col lg:flex-row lg:items-center lg:justify-between`}
       >
         <div className="flex justify-between items-center min-h-[65px] lg:h-[90px] w-full">
           <div className="w-[330px] cShadow relative bg-white rounded-r-full h-full flex p-3 pr-7">
