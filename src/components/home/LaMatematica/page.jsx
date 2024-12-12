@@ -28,7 +28,7 @@ export default function LaMatematica() {
             key={item.titulo}
             className="flex flex-col items-center mb-10 sm:mb-0"
           >
-            <div className=" w-[150px] lg:w-[200px] aspect-square relative mb-3">
+            <div className=" w-[150px] lg:w-[200px] aspect-square relative mb-5">
               <Image
                 src={item.img}
                 layout="fill"
@@ -36,7 +36,7 @@ export default function LaMatematica() {
                 alt="diferenciador"
               />
             </div>
-            <p className="w-[150px] md:w-[200px] text-violetaBooster font-bold text-2xl md:text-3xl lg:text-4xl text-center">
+            <p className="w-[150px] md:w-[200px] text-azulBooster font-bold text-2xl md:text-3xl lg:text-4xl text-center">
               {item.titulo}
             </p>
           </div>

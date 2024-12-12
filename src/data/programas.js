@@ -2,7 +2,9 @@ export const data = [
   {
     id: "boostermath",
     titulo: "Boostermath",
-    fondoTiutlo: "#9B00A7",
+    fondoTitulo: "/img/manchaVioleta.png",
+    colorVineta: "#9B00A7",
+    img: "/img/boostermath.png",
     tarjeta: {
       fondo: "#D1DBFA",
       items: [
@@ -22,7 +24,9 @@ export const data = [
   {
     id: "boosterclub",
     titulo: "Boosterclub",
-    fondoTiutlo: "#0E2378",
+    fondoTitulo: "/img/manchaAzul.png",
+    colorVineta: "#0E2378",
+    img: "/img/boosterclub.png",
     tarjeta: {
       fondo: "#DBF3F9",
       items: [
