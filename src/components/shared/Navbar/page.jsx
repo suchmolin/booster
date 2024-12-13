@@ -4,6 +4,7 @@ import SubMenu from "../SubMenu/page"
 import { IoIosMenu } from "react-icons/io"
 import { useState } from "react"
 import { IoCloseOutline } from "react-icons/io5"
+import Link from "next/link"
 
 export default function Navbar() {
   const [openSubMenu, setOpenSubMenu] = useState(false)
@@ -15,7 +16,7 @@ export default function Navbar() {
       >
         <div className="flex justify-between items-center min-h-[65px] lg:h-[90px] w-full">
           <div className="w-[330px] cShadow relative bg-white rounded-r-full h-full flex p-3 pr-7 justify-center">
-            <a
+            <Link
               onClick={(e) => setSelected("inicio")}
               href="/"
               className="w-full xs:w-9/12 sm:w-7/12 h-full relative hover:scale-95 transition-all duration-300"
@@ -27,7 +28,7 @@ export default function Navbar() {
                 layout="fill"
                 alt="logo booster mas"
               />
-            </a>
+            </Link>
           </div>
           <div className="block lg:hidden px-10 text-4xl sm:text-5xl hover:scale-105 transition-all duration-300 text-azulBooster">
             <button onClick={() => setOpenSubMenu(!openSubMenu)}>
