@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function SedesHome() {
   return (
     <div className="w-full flex flex-col items-center overflow-hidden bg-[url('/img/fondoqueempiece.png')] bg-cover bg-no-repeat bg-top">
-      <h2 className="font-[ralewayBlack] text-2xl xs:text-4xl sm:text-5xl text-white bg-azulBooster pb-2 pt-1 px-3 rounded-xl w-fit text-center lg:mb-12 xl:mb-0 xxl:mb-10">
+      <h2 className="font-[ralewayBlack] text-2xl xs:text-4xl sm:text-5xl text-white bg-azulBooster pb-2 pt-1 px-3 rounded-xl w-fit text-center ">
         Conoce nuestra sede
       </h2>
       <div className="w-[500px] md:w-[750px] lg:w-[1000px] xl:w-[1200px] xxl:w-[1300px] flex flex-col md:flex-row gap-5 lg:gap-10 xxl:gap-20 items-center">

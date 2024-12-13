@@ -30,7 +30,7 @@ export default function NuestrHistoria() {
           {valores.map((val) => (
             <div
               key={val.title}
-              className="relative group rounded-tl-[30px] rounded-br-[30px] rounded-tr-lg rounded-bl-lg w-[280px] h-[200px] flex flex-col transition-all duration-200 cShadow z-20 hover:border-4 border-violetaBooster hover:-mt-1 overflow-hidden"
+              className="relative group rounded-tl-[30px] rounded-br-[30px] rounded-tr-lg rounded-bl-lg w-[280px] h-[200px] flex flex-col transition-all duration-200 z-20 hover:border-2 border-violetaBooster hover:-mt-1 overflow-hidden cShadow2"
             >
               <div className="absolute top-0 left-0 bg-azulClaritoBooster p-4 w-full h-full ">
                 <div className="w-full flex justify-center">

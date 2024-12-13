@@ -11,8 +11,8 @@ export const data = [
   {
     id: "nivelacion",
     titulo: "Nivelación:",
-    fondoTitulo: "#FFE8FE",
-    colorTitulo: "#9B00A7",
+    fondoTitulo: "#0E2378",
+    colorTitulo: "#FFFFFF",
     descripcion:
       "El niño fortalece los conceptos previamente aprendidos y explora nuevos temas acorde a tu nivel de estudio.",
     img: "/img/NIVELACION.png",
@@ -20,7 +20,7 @@ export const data = [
   {
     id: "aceleracion",
     titulo: "Aceleración:",
-    fondoTitulo: "#9747FF",
+    fondoTitulo: "#9B00A7",
     colorTitulo: "#FFFFFF",
     descripcion:
       "Tu hijo resuelve problemas matemáticos más complejos, mientras avanza a niveles educativos superiores.",
@@ -29,8 +29,8 @@ export const data = [
   {
     id: "aplicacion",
     titulo: "Aplicación:",
-    fondoTitulo: "#DBF3F9",
-    colorTitulo: "#0E2378",
+    fondoTitulo: "#41BECD",
+    colorTitulo: "#FFFFFF",
     descripcion:
       "El niño aplica las matemáticas en situaciones reales desarrollando su razonamiento lógico.",
     img: "/img/APLICACION.png",
