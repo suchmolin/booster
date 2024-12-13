@@ -18,9 +18,14 @@
 .cShadow {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.cShadow2{
-  box-shadow: -7px 7px 0px 0px #0E2378;
-}
+
+  .cShadow2{
+    box-shadow: 0px 0px 4px 0px rgb(209 213 219);
+  }
+  .cShadow2:hover{
+    box-shadow: -7px 7px 0px 0px #0E2378;
+  }
+
 
 .bgGradient {
   background: rgb(255, 255, 255);
