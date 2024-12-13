@@ -23,10 +23,7 @@ export default function CardPrograma({ data }) {
       <div className="relative px-7 pt-7 pb-16">
         {tarjeta?.items.map((item) => (
           <div key={item} className="flex gap-4 mb-4 xs:mb-4">
-            <FaRegCheckCircle
-              style={{ color: data.colorVineta }}
-              className="text-2xl xl:text-3xl"
-            />
+            <FaRegCheckCircle className="text-2xl xl:text-3xl text-violetaBooster" />
             <p className="w-[200px] xs:w-[250px] lg:w-[280px] xl:w-[340px] xs:text-lg lg:text-LG xl:text-xl text-azulBooster font-[ralewayBlack]">
               {item}
             </p>

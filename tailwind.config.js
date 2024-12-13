@@ -24,7 +24,8 @@ module.exports = {
     extend: {
       colors: {
         azulBooster: "#0E2378",
-        azulClaroBooster: "#60BFCD",
+        azulClaroBooster: "#5AC6D3",
+        azulClaritoBooster: "#DBF3F9",
         violetaBooster: "#9B00A7",
       },
     },

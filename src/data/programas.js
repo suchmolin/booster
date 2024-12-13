@@ -3,7 +3,6 @@ export const data = [
     id: "boostermath",
     titulo: "Boostermath",
     fondoTitulo: "/img/manchaVioleta.png",
-    colorVineta: "#9B00A7",
     img: "/img/boostermath.png",
     tarjeta: {
       fondo: "#D1DBFA",
@@ -25,7 +24,6 @@ export const data = [
     id: "boosterclub",
     titulo: "Boosterclub",
     fondoTitulo: "/img/manchaAzul.png",
-    colorVineta: "#0E2378",
     img: "/img/boosterclub.png",
     tarjeta: {
       fondo: "#DBF3F9",
