@@ -5,7 +5,7 @@ import { Slide } from "react-awesome-reveal"
 export default function IniciacionSec({ item, mirror }) {
   return (
     <div
-      className={`w-[200px] xs:w-[260px] sm:w-[400px] md:w-full flex ${mirror ? "flex-col-reverse md:flex-row-reverse" : "flex-col-reverse md:flex-row"} sm:items-center justify-center gap-7 md:gap-36 lg:gap-52 mb-10 md:mb-0 ml-20 xs:ml-24 sm:ml-52 md:ml-0 overflow-hidden`}
+      className={`w-[240px] xs:w-[260px] sm:w-[400px] md:w-full flex ${mirror ? "flex-col-reverse md:flex-row-reverse" : "flex-col-reverse md:flex-row"} sm:items-center justify-center gap-7 md:gap-36 lg:gap-52 mb-10 md:mb-0 ml-20 xs:ml-24 sm:ml-52 md:ml-0 overflow-hidden`}
     >
       <Slide
         triggerOnce

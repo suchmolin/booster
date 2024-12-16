@@ -17,7 +17,7 @@ export default function BeneficiosAcelerador() {
           />
         </div>
       </div>
-      <h2 className="text-2xl sm:text-4xl lg:text-5xl text-azulBooster flex flex-col gap-3 text-center items-center mb-10">
+      <h2 className="text-2xl sm:text-4xl lg:text-5xl text-azulBooster flex flex-col gap-3 text-center items-center mb-10 pt-10 sm:pt-0">
         <span className="bg-azulClaroBooster py-1 px-3 w-fit rounded-md">
           Beneficios del Acelerador
         </span>

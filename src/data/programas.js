@@ -16,7 +16,7 @@ export const data = [
       boton: {
         color: "#60BFCD",
         texto: "CLASES GRUPALES",
-        href: "#",
+        href: "/boostermath",
       },
     },
   },
@@ -37,7 +37,7 @@ export const data = [
       boton: {
         color: "#9B00A7",
         texto: "CLASES PERSONALIZADAS",
-        href: "#",
+        href: "/boosterclub",
       },
     },
   },
