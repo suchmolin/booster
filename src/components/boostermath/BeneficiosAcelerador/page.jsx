@@ -5,12 +5,12 @@ import CardBeneficios from "@/components/shared/CardBeneficios/page"
 export default function BeneficiosAcelerador() {
   return (
     <div className="relative w-full flex flex-col items-center bg-gradient-to-b from-azulClaritoBooster to-white pb-20 md:overflow-hidden">
-      <div className="absolute top-0 w-full h-full">
+      <div className="hidden sm:block absolute top-0 w-full h-full">
         <div className="w-full h-[600px] relative">
           <Image
             className="top-0"
             src="/img/fondoEcuaciones.png"
-            objectFit="cover"
+            objectFit="contain"
             layout="fill"
             alt="fondo ecuaciones"
             objectPosition="top"

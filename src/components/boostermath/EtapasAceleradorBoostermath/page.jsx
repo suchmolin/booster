@@ -11,7 +11,7 @@ export default function EtapasAceleradorBoostermath() {
           <Image
             className="top-0"
             src="/img/fondoEcuaciones.png"
-            objectFit="cover"
+            objectFit="contain"
             layout="fill"
             alt="fondo ecuaciones"
             objectPosition="top"
