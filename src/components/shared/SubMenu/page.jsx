@@ -53,7 +53,7 @@ export default function SubMenu({ selected, setSelected }) {
               <li className="hover:text-azulBooster text-white transition-all duration-300 cursor-pointer">
                 <Link
                   href="/boostermath"
-                  onClick={(e) => setSelected("boostermath")}
+                  onClick={(e) => setSelected("programas")}
                 >
                   Boostermath
                 </Link>
@@ -61,7 +61,7 @@ export default function SubMenu({ selected, setSelected }) {
               <li className="hover:text-azulBooster text-white transition-all duration-300 cursor-pointer">
                 <Link
                   href="/boosterclub"
-                  onClick={(e) => setSelected("boosterclub")}
+                  onClick={(e) => setSelected("programas")}
                 >
                   Boosterclub
                 </Link>
@@ -72,8 +72,16 @@ export default function SubMenu({ selected, setSelected }) {
       </li>
       <li className={`hidden lg:block ${styleLI} `}>
         <Dropdown theme={customTheme} label="PROGRAMAS" inline>
-          <Dropdown.Item>Boostermath</Dropdown.Item>
-          <Dropdown.Item>Boosterclub</Dropdown.Item>
+          <Dropdown.Item>
+            <Link onClick={(e) => setSelected("programas")} href="/boostermath">
+              Boostermath
+            </Link>
+          </Dropdown.Item>
+          <Dropdown.Item>
+            <Link onClick={(e) => setSelected("programas")} href="/boosterclub">
+              Boosterclub
+            </Link>
+          </Dropdown.Item>
         </Dropdown>
       </li>
       <li
