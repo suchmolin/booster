@@ -1,15 +1,24 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Footer() {
+  const style = "hover:text-azulClaroBooster transition-all duration-300"
   return (
     <footer className="bg-azulBooster text-white py-10 flex flex-col items-center">
       <div className="w-11/12 flex flex-col-reverse sm:flex-row justify-between items-center sm:items-start pb-7">
         <ul className="w-11/12 sm:w-7/12 lg:w-4/12 flex flex-col gap-4 text-xl text-center sm:text-start mt-10 sm:mt-0">
-          <li>BLOG</li>
-          <li>INICIO</li>
-          <li>NOSOTROS</li>
-          <li>PREGUNTAS FRECUENTES</li>
-          <li>CONTÁCTANOS</li>
+          <li className={style}>
+            <Link href="/blog">BLOG</Link>
+          </li>
+          <li className={style}>
+            <Link href="/nosotros">NOSOTROS</Link>
+          </li>
+          <li className={style}>
+            <Link href="/preguntas-frecuentes">PREGUNTAS FRECUENTES</Link>
+          </li>
+          <li className={style}>
+            <Link href="/contactanos">CONTÁCTANOS</Link>
+          </li>
         </ul>
         <div className="hidden lg:flex w-5/12 flex-col gap-4 text-xl pr-5">
           <p>CONTACTO</p>
