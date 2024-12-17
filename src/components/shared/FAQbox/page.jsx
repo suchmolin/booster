@@ -1,7 +1,9 @@
 "use client"
 import { data } from "@/data/preguntasFrecuentes"
 import { useEffect, useState } from "react"
+import { Fade } from "react-awesome-reveal"
 import { FaPlus } from "react-icons/fa"
+import { RiSubtractLine } from "react-icons/ri"
 
 export default function FAQbox() {
   const [selected, setSelected] = useState(data[0].id)
@@ -25,7 +27,7 @@ export default function FAQbox() {
         ))}
       </div>
       <div className="py-5 sm:py-10 text-azulBooster px-4 sm:px-0">
-        {preguntas.map((preg) => (
+        {preguntas.map((preg, ind) => (
           <div key={preg.pregunta}>
             <p
               onClick={() => {
@@ -35,33 +37,45 @@ export default function FAQbox() {
               }}
               className=" cursor-pointer text-xl sm:text-2xl mb-7 flex gap-3"
             >
-              <FaPlus className="text-violetaBooster text-xl mt-2" />
+              {preg.pregunta === singlePreg ? (
+                <RiSubtractLine className="text-violetaBooster text-3xl mt-1" />
+              ) : (
+                <FaPlus className="text-violetaBooster text-xl mt-2" />
+              )}
               <span className="w-11/12">{preg.pregunta}</span>
             </p>
-            {preg.pregunta === singlePreg &&
-              preg.respuesta.map((res, index) => (
-                <div key={`parrafo${index}`} className="mb-5 ml-10">
-                  {res.p && (
-                    <div>
-                      {res.p.map((parr, indice) => (
-                        <p key={`subparr${indice}`} className="mb-4">
-                          {parr}
-                        </p>
-                      ))}
+            <div key={`divhiden${ind}`} className="overflow-hidden">
+              {preg.pregunta === singlePreg &&
+                preg.respuesta.map((res, index) => (
+                  <Fade direction="down">
+                    <div
+                      key={`parrafo${index}`}
+                      className={`mb-5 ml-10  transition-all duration-300 overflow-hidden`}
+                    >
+                      {res.p && (
+                        <div>
+                          {res.p.map((parr, indice) => (
+                            <p key={`subparr${indice}`} className="mb-4">
+                              {parr}
+                            </p>
+                          ))}
+                        </div>
+                      )}
+                      {res.ul && (
+                        <ul key={index} className="list-disc ml-4 mb-4">
+                          {res.ul.map((li, i) => (
+                            <li key={`liresp${i}`} className="mb-4">
+                              <b>{li.titulo}</b>
+                              {li.texto}
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                      <div className="w-[50px] h-[3px] bg-violetaBooster"></div>
                     </div>
-                  )}
-                  {res.ul && (
-                    <ul key={index} className="list-disc ml-4 mb-4">
-                      {res.ul.map((li, i) => (
-                        <li key={`liresp${i}`}>
-                          <b>{li.titulo}</b>
-                          {li.texto}
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
-              ))}
+                  </Fade>
+                ))}
+            </div>
           </div>
         ))}
       </div>
