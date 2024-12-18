@@ -47,9 +47,8 @@ export default function FAQbox() {
             <div key={`divhiden${ind}`} className="overflow-hidden">
               {preg.pregunta === singlePreg &&
                 preg.respuesta.map((res, index) => (
-                  <Fade direction="down">
+                  <Fade key={`parrafo${index}`} direction="down">
                     <div
-                      key={`parrafo${index}`}
                       className={`mb-5 ml-10  transition-all duration-300 overflow-hidden`}
                     >
                       {res.p && (
