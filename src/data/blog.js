@@ -8,11 +8,46 @@ export const data = [
       descripcion:
         "El ábaco es un dispositivo de cálculo que se utiliza desde hace miles de años. Consiste en una estructura con varillas o alambres en los que se realizan cuentas matemáticas.",
       autor: "Wilmar Salazar",
+      fecha: "Febrero, 12-24",
       categorias: [
         { texto: "Interés", color: "#5AC6D3" },
         { texto: "Matemática", color: "#A801A7" },
       ],
     },
+    imgHeader:
+      "/img/close-up-portrait-little-asian-girl-putting-money-coin-into-glass-jar-piggy-bank-select-focus-shallow-depth-field.png",
+    contenido: [
+      {
+        texto: [
+          "El ábaco es un dispositivo de cálculo que se utiliza desde hace miles de años. Consiste en una estructura con varillas o alambres en los que se desplazan cuentas o fichas, representando unidades, decenas, centenas y otros valores posicionales. A medida que manipulas las cuentas en el ábaco, puedes realizar operaciones aritméticas de manera visual y táctil, lo que facilita el cálculo mental y la comprensión de conceptos.",
+          "El ábaco tiene una historia fascinante que se remonta a miles de años atrás y es un testimonio de cómo los seres humanos han buscado formas ingeniosas de realizar cálculos y resolver problemas a lo largo de los siglos. Su legado perdura hasta nuestros días, y sigue siendo una herramienta valiosa para el aprendizaje y la apreciación de las matemáticas.",
+        ],
+      },
+      {
+        imgTexto: {
+          img: "/img/edufinan.png",
+          texto: [
+            {
+              titulo:
+                "¿Cuáles son los conceptos básicos que se deben enseñar en educación financiera a los niños?",
+              texto:
+                "La diferencia entre ingresos y gastos, la importancia del ahorro, cómo elaborar un presupuesto, cómo evitar el endeudamiento excesivo, cómo invertir y diversificar, y cómo tomar decisiones financieras basadas en necesidades y deseos.",
+            },
+            {
+              titulo:
+                "¿Cuál es la importancia de desarrollar hábitos financieros saludables desde temprana edad?",
+              texto:
+                "Desarrollarlo sienta las bases para una vida financiera exitosa. Los niños que aprenden a administrar su dinero de manera responsable, a ahorrar regularmente, a evitar el endeudamiento excesivo y a tomar decisiones informadas están mejor preparados para enfrentar desafíos financieros en el futuro.",
+            },
+          ],
+        },
+      },
+      {
+        titulo:
+          "El Ahorro ayuda a ganar disciplina, constancia, orden y a trazar objetivos alcanzables, como comprar una vivienda, un medio de transporte o invertir en educación.",
+        img: "/img/educacionfinanciera.png",
+      },
+    ],
   },
   {
     id: "educacion-financiera-porque-es-importante",
@@ -27,6 +62,8 @@ export const data = [
         { texto: "Finanzas", color: "#001D76" },
       ],
     },
+    imgHeader: "/img/image.png",
+    contenido: [],
   },
   {
     id: "conoce-los-beneficios-de-las-matematicas",
@@ -41,6 +78,8 @@ export const data = [
         { texto: "Matemática", color: "#A801A7" },
       ],
     },
+    imgHeader: "/img/image.png",
+    contenido: [],
   },
   {
     id: "porque-estudiar-ingles-es-tan-importante",
