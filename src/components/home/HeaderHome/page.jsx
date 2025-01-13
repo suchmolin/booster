@@ -30,7 +30,7 @@ export default function HeaderHome() {
               Clases de matemáticas para niños
             </p>
             <div className="flex justify-center sm:justify-start">
-              <BotonBooster href="#" texto="VER MÁS" />
+              <BotonBooster href="#primeracelerador" texto="VER MÁS" />
             </div>
           </div>
         </div>

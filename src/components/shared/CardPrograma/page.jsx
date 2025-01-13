@@ -7,7 +7,7 @@ export default function CardPrograma({ data }) {
   return (
     <div
       style={{ backgroundColor: tarjeta?.fondo }}
-      className="w-[280px] xs:w-[350px] lg:w-[400px] xl:w-[500px] min-h-[860px] relative flex flex-col rounded-2xl pb-10 cShadow"
+      className="w-[280px] xs:w-[350px] lg:w-[400px] xl:w-[500px] md:min-h-[860px] relative flex flex-col rounded-2xl pb-10 cShadow"
     >
       <div className="absolute w-full -top-10 flex justify-center z-10">
         <h3

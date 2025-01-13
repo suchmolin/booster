@@ -30,38 +30,50 @@ export default function Footer() {
         <div className="w-5/12 lg:w-3/12 text-xl flex flex-col gap-4 items-center sm:items-start">
           <p>SÍGUENOS</p>
           <div className="flex gap-4">
-            <div className="w-[30px] aspect-square relative">
+            <a
+              href="#"
+              className="w-[30px] aspect-square relative hover:scale-105 transition-all duration-300"
+            >
               <Image
                 src="/img/instagram.png"
                 layout="fill"
                 objectFit="contain"
                 alt="red social"
               />
-            </div>
-            <div className="w-[30px] aspect-square relative">
+            </a>
+            <a
+              href="#"
+              className="w-[30px] aspect-square relative hover:scale-105 transition-all duration-300"
+            >
               <Image
                 src="/img/facebook.png"
                 layout="fill"
                 objectFit="contain"
                 alt="red social"
               />
-            </div>
-            <div className="w-[30px] aspect-square relative">
+            </a>
+            <a
+              href="#"
+              className="w-[30px] aspect-square relative hover:scale-105 transition-all duration-300"
+            >
               <Image
                 src="/img/whatsapp.png"
                 layout="fill"
                 objectFit="contain"
                 alt="red social"
               />
-            </div>
-            <div className="w-[30px] aspect-square relative">
+            </a>
+            <a
+              href="#"
+              className="w-[30px] aspect-square relative hover:scale-105 transition-all duration-300"
+            >
               <Image
                 src="/img/tiktok.png"
                 layout="fill"
                 objectFit="contain"
                 alt="red social"
               />
-            </div>
+            </a>
           </div>
           <div className="w-[200px] h-[100px] relative">
             <Image

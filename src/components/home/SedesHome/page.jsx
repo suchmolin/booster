@@ -62,7 +62,7 @@ export default function SedesHome() {
             alt=" que empiece el despegue"
           />
         </div>
-        <BotonBooster href="#" texto="CONTÁCTANOS" />
+        <BotonBooster href="/contactanos" texto="CONTÁCTANOS" />
       </div>
     </div>
   )

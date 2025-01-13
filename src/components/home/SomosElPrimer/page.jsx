@@ -3,7 +3,10 @@ import Image from "next/image"
 
 export default function SomosElPrimer() {
   return (
-    <div className="w-full relative bg-gradient-to-b from-[#DBF3F9] to-white z-20 flex flex-col items-center lg:-mt-5 overflow-hidden">
+    <div
+      id="primeracelerador"
+      className="w-full relative bg-gradient-to-b from-[#DBF3F9] to-white z-20 flex flex-col items-center lg:-mt-5 overflow-hidden"
+    >
       <h2 className="text-xl xs:text-2xl sm:text-4xl lg:text-5xl text-white pt-10 lg:pt-20 flex flex-col text-center gap-2 font-[ralewayBlack] items-center mb-5">
         <span className="bg-violetaBooster rounded-xl w-fit py-2 px-4">
           Somos el Primer Acelerador
@@ -37,7 +40,7 @@ export default function SomosElPrimer() {
             adelante en su formación académica.
           </p>
           <div className="w-full flex justify-center">
-            <BotonBooster href="#" texto="Contáctanos" />
+            <BotonBooster href="/contactanos" texto="Contáctanos" />
           </div>
         </div>
       </div>
